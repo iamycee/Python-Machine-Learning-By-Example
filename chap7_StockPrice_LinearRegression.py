@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 
-authtoken = 'u73LLu2d5enFaS1T-ZQa'
+authtoken = 'my_confidential_authtoken'
 
 def get_data_quandl(symbol, start_date, end_date):
     data = quandl.get(symbol, start_date=start_date, end_date=end_date, authtoken=authtoken)
